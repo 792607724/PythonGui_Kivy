@@ -2,7 +2,7 @@
 
 import os
 
-os.path.abspath(".")
+os.path.abspath("..")
 
 # 导入Kivy的App类，它是所有Kivy应用的基类
 from kivy.app import App
