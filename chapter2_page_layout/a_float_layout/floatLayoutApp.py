@@ -1,9 +1,9 @@
 # coding = utf8
 import os
 
-os.path.abspath(".")
+os.path.abspath("..")
 """
-    @File:posApp.py
+    @File:floatLayoutApp.py
     @Author:Bruce
     @Date:2021/7/31
 """
@@ -11,15 +11,15 @@ from kivy.app import App
 from kivy.uix.floatlayout import FloatLayout
 
 
-class PosFloat(FloatLayout):
+class FloatLayoutWidget(FloatLayout):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
 
-class PosApp(App):
+class FloatLayoutApp(App):
     def build(self):
-        return PosFloat()
+        return FloatLayoutWidget()
 
 
 if __name__ == '__main__':
-    PosApp().run()
+    FloatLayoutApp().run()

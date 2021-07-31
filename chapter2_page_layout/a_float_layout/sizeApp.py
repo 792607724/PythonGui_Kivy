@@ -1,7 +1,7 @@
 # coding = utf8
 import os
 
-os.path.abspath(".")
+os.path.abspath("..")
 """
     @File:sizeApp.py
     @Author:Bruce
