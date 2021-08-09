@@ -28,7 +28,7 @@ class SizeApp(App):
 
 
 """
-    pos_hint:传入字典值，如下可取：
+    pos_hint:传入字典值，如下可取：(根据需求变动)
     1、x->{"x":0.5,"y":0.5}
     2、center_x->as 1
     3、right->as 1
