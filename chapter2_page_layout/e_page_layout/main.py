@@ -19,6 +19,9 @@ class PageLayoutWidget(PageLayout):
         self.add_widget(btn2)
         self.add_widget(btn3)
 
+    def say_hello(self):
+        print("Hello")
+
 
 class PageApp(App):
     def build(self):
